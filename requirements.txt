@@ -22,4 +22,6 @@ python-docx
 pdfkit
 wkhtmltopdf
 weasyprint
-libxrender
+scikit-learn
+matplotlib
+seaborn
