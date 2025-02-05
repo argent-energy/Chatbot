@@ -1,0 +1,8 @@
+categories:
+  - name: Argent Energy
+    usecases:
+      - name: Argent Chatbot
+        form: argent_chatbot
+      - name: Argent Price Prediction
+        form: argent_price_prediction
+  
