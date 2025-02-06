@@ -75,7 +75,7 @@ df[['predicted+7','predicted+15','predicted+30']]=y_full_pred
 st.write('\n\n\nFull data with Predicted and Actual values:\n\n\n')
 st.write(df)
 df.to_csv('FULL PREDICTED.csv')
-print(y_pred.shape)
+
 
 
 y_pred_df = pd.DataFrame(y_pred, columns=[f'Predicted+7','predicted+15','predicted+30'])  
@@ -168,7 +168,7 @@ new_column_names = {
 matrix_df.rename(columns=new_column_names, inplace=True)
 
 # Display the updated DataFrame
-print(df)
+
 st.write(matrix_df)
 matrix_df.to_csv('output.csv')
 matrix = matrix_df.drop(columns='Date').corr()
