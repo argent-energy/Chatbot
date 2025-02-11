@@ -25,3 +25,4 @@ weasyprint
 scikit-learn
 matplotlib
 seaborn
+pandas
