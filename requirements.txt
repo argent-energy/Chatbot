@@ -23,7 +23,7 @@ pdfkit
 wkhtmltopdf
 weasyprint
 python-dateutil==2.8.2
-numpy==1.24.2
+numpy
 scikit-learn==1.2.1
 matplotlib==3.6.3
 seaborn==0.12.2
