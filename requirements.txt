@@ -25,3 +25,6 @@ weasyprint
 scikit-learn
 matplotlib
 seaborn
+pandas
+numpy
+python-dateutil
